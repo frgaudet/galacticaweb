@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://galactica.isima.fr/sitemap.xml
