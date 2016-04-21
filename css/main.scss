@@ -1650,6 +1650,8 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 
+		img { height: 3em;  }
+
 		nav {
 			height: inherit;
 			line-height: inherit;
