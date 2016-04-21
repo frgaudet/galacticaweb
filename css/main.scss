@@ -1629,8 +1629,9 @@ $baseurl: '{{ site.baseurl }}/images';
 		width: 100%;
 		z-index: _misc(z-index-base);
 
-		h1 {
+		a {
 			@include vendor('transition', 'opacity #{_duration(transitions)} ease');
+			border-bottom: none;
 			height: inherit;
 			left: 1.25em;
 			line-height: inherit;
@@ -1638,7 +1639,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			top: 0;
 			text-transform: none;
 
-			a {
+			img {
 				border: 0;
 				display: block;
 				height: inherit;
