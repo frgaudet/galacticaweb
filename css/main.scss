@@ -1650,6 +1650,10 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 
+		a {
+			border-bottom: none;
+		}
+
 		img { height: 3em;  }
 
 		nav {
