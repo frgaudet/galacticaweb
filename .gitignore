@@ -2,3 +2,7 @@ _site
 .sass-cache
 .jekyll-metadata
 compose.rb
+
+*.sublime-project
+
+*.sublime-workspace
