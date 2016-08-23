@@ -18,14 +18,18 @@ L’OS est installé sur deux disques en RAID 1, nous disposons en outre de 6 To
 * 256 Go RAM
 * 2 Disques SAS 300 Go 15K RPM
 * 6 disques SAS 1To 7200 RPM
-* Storage Nodes
+
+# Stockage Ceph
 * Les nœuds de stockage sont des Dell R730Xd. Nous en avons 3. Ils sont équipé de 2 processeurs Intel Xeon E5 2630, de 8 cœurs chacun. L’OS est déployé sur deux disques rapides de 300 Go en RAID 1, tandis que le stockage proprement dit se réparti sur 24 disques de 1,8 To chacun. Ce qui porte la capacité brute de chaque noeud à près de 43 To.
 
 * Bi Xeon E5-2630
 * 64 Go RAM
 * 2 disques SAS de 300 Go 15K RPM
 * 24 disques SAS de 1,8 To 7200 RPM
-* Serveurs d’infrastructure
-* Tous ces éléments sont interconnectés grâce à un réseau full 10G.
+
+
+# Serveurs d’infrastructure
 
 5 serveurs d’infrastructures (2*Dell R430 et 3*R630) sont également utilisés afin de fournir les services de gestion du cluster, d’interconnexion avec l’extérieur (proxys) ainsi que de supervision/benchmarking.
+
+Tous ces éléments sont interconnectés grâce à un réseau full 10G.
