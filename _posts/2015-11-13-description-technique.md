@@ -7,7 +7,7 @@ author: fred
 ---
 
 # Description générale
-La plateforme GALACTICA est un cluster présentant une puissance de calcul totale de 80 coeurs (160 avec l’hyperthreading) à 2,40 GHz, 1,2 To de RAM et une capacité de stockage brute de 130 To. Le cluster est composé d’éléments de calcul et de stockage dont voici les caractéristiques principales :
+La plateforme GALACTICA est un cluster présentant une puissance de calcul totale de 80 coeurs (160 avec l’hyperthreading) à 2,40 GHz, 1,2 To de RAM et une capacité de stockage brute de 117 To. Le cluster est composé d’éléments de calcul et de stockage dont voici les caractéristiques principales :
 
 # Compute nodes
 Ces nœuds sont des Dell R630, aujourd’hui au nombre de 5. Chaque nœud est équipé de 2 processeurs Intel Xeon E5 2630 de 8 cœurs. Ce qui porte la capacité à 16 cœurs par noeuds.
