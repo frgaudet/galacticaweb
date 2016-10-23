@@ -6,10 +6,10 @@ excerpt: ""
 author: ccepeda
 ---
 # Objectif du projet "RulNet"
-Disposer d'un cluster de calcul pour l'application web externe [RulNet](rulnet.isima.fr), dont l'objectif est d'inférer différents types de règles à partir d'un grand volume de données et dont l'application principale est la génération de réseaux biologiques à partir de données "omiques".
+Disposer d'un cluster de calcul pour l'application web externe [RulNet](http://rulnet.isima.fr), dont l'objectif est d'inférer différents types de règles à partir d'un grand volume de données et dont l'application principale est la génération de réseaux biologiques à partir de données "omiques".
 
 # Résumé du projet
-[RulNet](rulnet.isima.fr) est une application en ligne permettant à ses utilisateurs de découvrir différents types de règles à partir d'une base de données ou de fichiers de données transmis, puis de visualiser ces règles sous forme de réseaux directement sur l'application ou via d'autres outils comme par exemple Cytoscape. La particularité de cet outil est l'utilisation d'un langage de requêtes simple nommé RQL.
+[RulNet](http://rulnet.isima.fr) est une application en ligne permettant à ses utilisateurs de découvrir différents types de règles à partir d'une base de données ou de fichiers de données transmis, puis de visualiser ces règles sous forme de réseaux directement sur l'application ou via d'autres outils comme par exemple Cytoscape. La particularité de cet outil est l'utilisation d'un langage de requêtes simple nommé RQL.
 
 Une règle est de la forme X=>Y, où X et Y sont des ensembles de variables et reflète ainsi une relation entre ces variables. L'utilisateur définit grâce au langage RQL quel type de relations l'intéresse. Par exemple G1,G2=>G3 peut avoir comme signification qu'une délétion des gènes G1 et G2 implique systématiquement un niveau d'expression faible pour G3.
 
