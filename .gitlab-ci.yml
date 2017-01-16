@@ -1,0 +1,31 @@
+image: ruby:2.3
+
+cache:
+  paths: 
+    - vendor/
+
+before_script:
+  - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+  - eval $(ssh-agent -s)
+  - ssh-add <(echo "$SSH_PRIVATE_KEY")
+  - mkdir -p ~/.ssh
+  - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+
+build:
+  stage: build
+  script:
+    - gem install jekyll
+    - JEKYLL_ENV=production jekyll build -d public/
+  artifacts:
+    untracked: true
+      
+deploy:
+  stage: deploy
+  dependencies: 
+    - build
+  script:
+    - (apt-get update && apt-get -y install rsync) || yum install rsync
+    - rsync -av --delete public/* update@galactica.isima.fr:/var/www/html/galacticaweb
+    - ssh update@galactica.isima.fr 'find /var/www/html/galacticaweb -type f -exec chmod -R 644 {} \;'
+    - ssh update@galactica.isima.fr 'find /var/www/html/galacticaweb -type d -exec chmod -R 755 {} \;'
+    - ssh update@galactica.isima.fr 'if [ ! -e doc ];then ln -s /var/www/html/galacticadocs doc;fi'
