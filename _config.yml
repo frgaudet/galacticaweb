@@ -20,7 +20,7 @@ owner:
 first_published: 2016 # if migrating another site, the year of your first publish
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://galactica.isima.fr" # the base hostname & protocol for your site
-
+port: 4001
 # on landing page
 # - set the greeting only if you want to display the first green section
 greeting:

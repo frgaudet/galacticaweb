@@ -19,7 +19,7 @@ n33:
 abelghoul:
   name: Abdeslem Belghoul
   bio: >
-    Dictorant Limos
+    Doctorant Limos
   disqus_shortname: 
   url: 
   email: abelghoul@isima.fr
@@ -40,4 +40,12 @@ nwagner:
     Etudiant Master 1
   url:
   email: lenicolaswagner@gmail.com
+  avatar:
+
+nkouyea:
+  name: Nestor Kouyea
+  bio: |
+    Doctorant Limos
+  url: http://projets.isima.fr/mdata
+  email: nestor.koueya@isima.fr
   avatar:
