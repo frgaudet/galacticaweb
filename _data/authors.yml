@@ -65,3 +65,11 @@ kmean:
   url: http://edss.isima.fr/sites/smir/member/intro?userId=61
   email: kun-mean.hou@isima.fr 
   avatar:
+
+bdoreau:
+  name: Bastien Doreau
+  bio: |
+    Ingénieur d'étude Limos
+  url: http://limos.isima.fr
+  email: bastien.doreau@isima.fr
+  avatar:
