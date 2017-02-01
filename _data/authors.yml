@@ -49,3 +49,11 @@ nkouyea:
   url: http://projets.isima.fr/mdata
   email: nestor.koueya@isima.fr
   avatar:
+
+fjammes:
+  name: Fabrice Jammes
+  bio: |
+    Ingénieur LPC 
+  url: http://dm.lsst.org
+  email: fabrice.jammes@clermont.in2p3.fr
+  avatar:
