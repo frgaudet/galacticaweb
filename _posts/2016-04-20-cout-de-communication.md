@@ -1,5 +1,5 @@
 ---
-title: Coût de communication dans les systèmes d’intégration de données
+title: MIND, coût de communication dans les systèmes d’intégration de données
 categories: works
 background-image: background.jpg
 excerpt: ""
