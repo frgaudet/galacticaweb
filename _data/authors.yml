@@ -81,3 +81,11 @@ lyeh:
   url: http://www.prism.uvsq.fr/index.php/annuaire/trombi-3?view=trombinoscope&letter=Y
   email: yeh@prism.uvsq.fr
   avatar:
+
+carnault:
+  name: Christian Arnault
+  bio: |
+    Ingénieur de recherche CNRS - LAL IN2P3 Orsay
+  url: https://www.lal.in2p3.fr
+  email: arnault@lal.in2p3.fr
+  avatar:
