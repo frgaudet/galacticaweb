@@ -24,8 +24,6 @@ Obtaining optimal related key cryptanalysis of AES (done) and other block cipher
 
 # Publications
 
-
-Liste des publis:
 Siwei Sun, David Gerault, Pascal Lafourcade, Qianqian Yang, Yosuke Todo, Kexin Qiao, Lei Hu:
 Analysis of AES, SKINNY, and Others with Constraint Programming. IACR Trans. Symmetric Cryptol. 2017(1): 281-306 (2017)
 
