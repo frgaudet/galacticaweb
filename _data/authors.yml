@@ -113,3 +113,19 @@ rciucanu:
   url:
   email: radu.ciucanu@uca.fr
   avatar:
+
+dgerault:
+  name: David Gerault
+  bio: |
+    Doctorant Limos
+  url:
+  email: dagerault@gmail.com
+  avatar:
+
+mgiraud:
+  name: Matthieu Giraud
+  bio: |
+    Doctorant Limos
+  url:
+  email: matthieu.giraud@uca.fr
+  avatar:
