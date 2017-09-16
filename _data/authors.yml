@@ -4,8 +4,8 @@ fred:
   name: Frédéric Gaudet
   bio: >
     IR CNRS
-  disqus_shortname: 
-  url: 
+  disqus_shortname:
+  url:
   email: gaudet@isima.fr
   avatar:
 
@@ -20,8 +20,8 @@ abelghoul:
   name: Abdeslem Belghoul
   bio: >
     Doctorant Limos
-  disqus_shortname: 
-  url: 
+  disqus_shortname:
+  url:
   email: abelghoul@isima.fr
   avatar:
 
@@ -29,8 +29,8 @@ ccepeda:
   name: Carlos Cepeda
   bio: >
     Ingénieur de recherche / Limos
-  disqus_shortname: 
-  url: 
+  disqus_shortname:
+  url:
   email: carlos.cepeda@isima.fr
   avatar:
 
@@ -53,7 +53,7 @@ nkouyea:
 fjammes:
   name: Fabrice Jammes
   bio: |
-    Ingénieur LPC 
+    Ingénieur LPC
   url: http://dm.lsst.org
   email: fabrice.jammes@clermont.in2p3.fr
   avatar:
@@ -63,7 +63,7 @@ kmean:
   bio: |
     Professeur des Universités
   url: http://edss.isima.fr/sites/smir/member/intro?userId=61
-  email: kun-mean.hou@isima.fr 
+  email: kun-mean.hou@isima.fr
   avatar:
 
 bdoreau:
@@ -96,4 +96,36 @@ czhang:
     Doctorant Limos
   url: http://limos.isima.fr
   email: zhangchaohit13sg@gmail.com
-  avatar:  
+  avatar:
+
+jmfavreau:
+  name: Jean Marie Favreau
+  bio: |
+    Maître de conférence, Université Clermont Auvergne
+  url: http://jmfavreau.info
+  email: J-Marie.Favreau@uca.fr
+  avatar:
+
+rciucanu:
+  name: Radu Ciucanu
+  bio: |
+    Maître de conférence, Université Clermont Auvergne
+  url:
+  email: radu.ciucanu@uca.fr
+  avatar:
+
+dgerault:
+  name: David Gerault
+  bio: |
+    Doctorant Limos
+  url:
+  email: dagerault@gmail.com
+  avatar:
+
+mgiraud:
+  name: Matthieu Giraud
+  bio: |
+    Doctorant Limos
+  url:
+  email: matthieu.giraud@uca.fr
+  avatar:
